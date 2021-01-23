@@ -1,0 +1,828 @@
+[23Jan2021 09:59:55.421] [Render thread/WARN] [net.minecraft.client.shader.ShaderInstance/]: Could not find uniform named resolution in the specified shader program.
+[23Jan2021 10:01:35.711] [Render thread/INFO] [Bookshelf/]: Registering 1 commands.
+[23Jan2021 10:01:35.727] [Render thread/INFO] [ipsis.woot.setup.ModSetup/]: onRegisterCommandsEvent
+[23Jan2021 10:01:35.749] [Render thread/INFO] [Dungeon Crawl/]: Adding datapack reload listener
+[23Jan2021 10:01:36.078] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:unify/unify.js in 0.033 s
+[23Jan2021 10:01:36.083] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/ae.js in 0.005 s
+[23Jan2021 10:01:36.087] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/bigreactors.js in 0.003 s
+[23Jan2021 10:01:36.094] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/comforts.js in 0.007 s
+[23Jan2021 10:01:36.097] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/cyclic.js in 0.003 s
+[23Jan2021 10:01:36.101] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/ie.js in 0.004 s
+[23Jan2021 10:01:36.107] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/if.js in 0.006 s
+[23Jan2021 10:01:36.111] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/mekanism.js in 0.004 s
+[23Jan2021 10:01:36.115] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/rats.js in 0.003 s
+[23Jan2021 10:01:36.121] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/thermal.js in 0.005 s
+[23Jan2021 10:01:36.126] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/minecraft.js in 0.005 s
+[23Jan2021 10:01:36.131] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:emojiful/direwolf.js in 0.004 s
+[23Jan2021 10:01:36.136] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:emojiful/ftb.js in 0.004 s
+[23Jan2021 10:01:36.136] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded 13/13 KubeJS server scripts in 0.147 s
+[23Jan2021 10:01:36.136] [Render thread/INFO] [KubeJS Server/]: Scripts loaded
+[23Jan2021 10:01:36.137] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:crushing
+[23Jan2021 10:01:36.137] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:enriching
+[23Jan2021 10:01:36.137] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:smelting
+[23Jan2021 10:01:36.137] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:chemical_infusing
+[23Jan2021 10:01:36.138] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:combining
+[23Jan2021 10:01:36.138] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:crystallizing
+[23Jan2021 10:01:36.138] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:dissolution
+[23Jan2021 10:01:36.139] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:compressing
+[23Jan2021 10:01:36.139] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:purifying
+[23Jan2021 10:01:36.139] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:injecting
+[23Jan2021 10:01:36.139] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:energy_conversion
+[23Jan2021 10:01:36.139] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:gas_conversion
+[23Jan2021 10:01:36.139] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:oxidizing
+[23Jan2021 10:01:36.140] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:metallurgic_infusing
+[23Jan2021 10:01:36.142] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:reaction
+[23Jan2021 10:01:36.142] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:sawing
+[23Jan2021 10:01:36.142] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:altar
+[23Jan2021 10:01:36.142] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:array
+[23Jan2021 10:01:36.142] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:soulforge
+[23Jan2021 10:01:36.143] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:arc
+[23Jan2021 10:01:36.143] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:alchemytable
+[23Jan2021 10:01:36.143] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:furnace
+[23Jan2021 10:01:36.143] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:sawmill
+[23Jan2021 10:01:36.143] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:pulverizer
+[23Jan2021 10:01:36.143] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:smelter
+[23Jan2021 10:01:36.143] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:insolator
+[23Jan2021 10:01:36.144] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:centrifuge
+[23Jan2021 10:01:36.144] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:press
+[23Jan2021 10:01:36.144] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:crucible
+[23Jan2021 10:01:36.144] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:chiller
+[23Jan2021 10:01:36.144] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:refinery
+[23Jan2021 10:01:36.144] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:brewer
+[23Jan2021 10:01:36.144] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:bottler
+[23Jan2021 10:01:36.144] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:pulverizer_catalyst
+[23Jan2021 10:01:36.144] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:smelter_catalyst
+[23Jan2021 10:01:36.144] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:insolator_catalyst
+[23Jan2021 10:01:36.145] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:stirling_fuel
+[23Jan2021 10:01:36.145] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:compression_fuel
+[23Jan2021 10:01:36.145] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:magmatic_fuel
+[23Jan2021 10:01:36.145] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:numismatic_fuel
+[23Jan2021 10:01:36.145] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:lapidary_fuel
+[23Jan2021 10:01:36.145] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:blockzapper_upgrade
+[23Jan2021 10:01:36.145] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:mechanical_crafting
+[23Jan2021 10:01:36.145] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:conversion
+[23Jan2021 10:01:36.145] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:crushing
+[23Jan2021 10:01:36.145] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:cutting
+[23Jan2021 10:01:36.145] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:milling
+[23Jan2021 10:01:36.145] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:basin
+[23Jan2021 10:01:36.146] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:mixing
+[23Jan2021 10:01:36.146] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:compacting
+[23Jan2021 10:01:36.146] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:pressing
+[23Jan2021 10:01:36.146] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:sandpaper_polishing
+[23Jan2021 10:01:36.146] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:splashing
+[23Jan2021 10:01:36.146] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:filling
+[23Jan2021 10:01:36.147] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:emptying
+[23Jan2021 10:01:36.147] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:turn_and_copy
+[23Jan2021 10:01:36.147] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:alloy
+[23Jan2021 10:01:36.147] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:blast_furnace
+[23Jan2021 10:01:36.148] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:blast_furnace_fuel
+[23Jan2021 10:01:36.148] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:coke_oven
+[23Jan2021 10:01:36.148] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:cloche
+[23Jan2021 10:01:36.148] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:fertilizer
+[23Jan2021 10:01:36.148] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:metal_press
+[23Jan2021 10:01:36.148] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:arc_furnace
+[23Jan2021 10:01:36.148] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:crusher
+[23Jan2021 10:01:36.148] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:sawmill
+[23Jan2021 10:01:36.148] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:crafting_shaped
+[23Jan2021 10:01:36.149] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:crafting_shapeless
+[23Jan2021 10:01:36.149] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:stonecutting
+[23Jan2021 10:01:36.149] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smelting
+[23Jan2021 10:01:36.149] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:blasting
+[23Jan2021 10:01:36.149] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smoking
+[23Jan2021 10:01:36.149] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:campfire_cooking
+[23Jan2021 10:01:36.149] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smithing
+[23Jan2021 10:01:36.149] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type botanypots:crop
+[23Jan2021 10:01:36.150] [Render thread/INFO] [KubeJS Server/]: Scanning recipes...
+[23Jan2021 10:01:39.446] [Render thread/INFO] [KubeJS Server/]: [blocks] Found 525 tags, added 3 objects, removed 10 objects
+[23Jan2021 10:01:39.498] [Render thread/INFO] [KubeJS Server/]: [items] Found 1085 tags, added 14 objects, removed 24 objects
+[23Jan2021 10:01:39.524] [Render thread/INFO] [KubeJS Server/]: [fluids] Found 51 tags, added 1 objects, removed 6 objects
+[23Jan2021 10:01:39.533] [Render thread/INFO] [KubeJS Server/]: [entity_types] Found 13 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:01:39.540] [Render thread/INFO] [KubeJS Server/]: [potions] Found 0 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:01:39.547] [Render thread/INFO] [KubeJS Server/]: [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:01:39.553] [Render thread/INFO] [KubeJS Server/]: [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:01:39.560] [Render thread/INFO] [KubeJS Server/]: [tile_entity_types] Found 3 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:01:39.567] [Render thread/INFO] [KubeJS Server/]: [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:01:39.573] [Render thread/INFO] [KubeJS Server/]: [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:01:39.579] [Render thread/INFO] [KubeJS Server/]: [gases] Found 5 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:01:40.295] [Render thread/INFO] [KubeJS Server/]: Found 13415 recipes and 0 failed recipes in 709.3 ms
+[23Jan2021 10:01:42.485] [Render thread/INFO] [KubeJS Server/]: Posted recipe events in 2.190 s
+[23Jan2021 10:01:42.872] [Render thread/INFO] [KubeJS Server/]: Modified & removed recipes in 386.5 ms
+[23Jan2021 10:01:42.876] [Render thread/INFO] [KubeJS Server/]: Added recipes in 3.131 ms
+[23Jan2021 10:01:42.876] [Render thread/INFO] [KubeJS Server/]: Added 131 recipes, removed 164 recipes, modified 625 recipes, with 0 failed recipes and 0 fall-backed recipes
+[23Jan2021 10:01:46.008] [Render thread/INFO] [placebo/]: Registered 0 additional loot tables.
+[23Jan2021 10:01:46.016] [Render thread/INFO] [KubeJS Server/]: [functions] Found 0 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:01:46.125] [Render thread/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement simplemagnets:recipes/search/advanced_magnet: Unknown required criterion 'basic_magnet'
+[23Jan2021 10:01:46.138] [Render thread/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement tetra:spelunking/chthonic_crossbow: Unknown required criterion 'unused'
+[23Jan2021 10:01:46.196] [Render thread/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement tetra:spelunking/chthonic_cooldown: Task Advancement{parentId=tetra:spelunking/chthonic_crossbow, display=net.minecraft.advancements.DisplayInfo@31dff671, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.command.FunctionObject$CacheableFunction@48f14751}, criteria={cooldown=net.minecraft.advancements.Criterion@5cf575b4}, requirements=[[cooldown]]}
+[23Jan2021 10:01:46.209] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4904 advancements
+[23Jan2021 10:01:46.213] [Render thread/INFO] [placebo/]: Registered 0 additional recipes.
+[23Jan2021 10:01:47.075] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   6 tweaks
+[23Jan2021 10:01:47.078] [Render thread/INFO] [se.mickelus.tetra.data.MergingDataStore/]: Loaded  69 materials
+[23Jan2021 10:01:47.088] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded 226 improvements
+[23Jan2021 10:01:47.113] [Render thread/INFO] [se.mickelus.tetra.data.MergingDataStore/]: Loaded  64 modules
+[23Jan2021 10:01:47.226] [Render thread/INFO] [se.mickelus.tetra.client.model.ModularModelLoader/]: Clearing model cache for 7 items, let's get bakin'
+[23Jan2021 10:01:47.230] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  10 enchantments
+[23Jan2021 10:01:47.231] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   3 synergies
+[23Jan2021 10:01:47.232] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  10 replacements
+[23Jan2021 10:01:47.235] [Render thread/INFO] [se.mickelus.tetra.data.MergingDataStore/]: Loaded 286 schematics
+[23Jan2021 10:01:47.268] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  11 repairs
+[23Jan2021 10:01:47.269] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   4 predicatus
+[23Jan2021 10:01:47.270] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   2 actions
+[23Jan2021 10:01:47.271] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  10 destabilization
+[23Jan2021 10:01:47.272] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  45 structures
+[23Jan2021 10:01:47.279] [Render thread/INFO] [Astral Sorcery/]: Built PerkTree with 417 perks!
+[23Jan2021 10:01:47.279] [Render thread/INFO] [Dungeon Crawl/]: Loading data...
+[23Jan2021 10:01:47.780] [Render thread/INFO] [Dungeon Crawl/]: Finished data loading.
+[23Jan2021 10:01:47.781] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for quark:permafrost: mod 'quark' not loaded
+[23Jan2021 10:01:47.782] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for natura:nether_heat_sand: mod 'natura' not loaded
+[23Jan2021 10:01:47.782] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for quark:brimstone: mod 'quark' not loaded
+[23Jan2021 10:01:47.782] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for quark:blaze_lantern: mod 'quark' not loaded
+[23Jan2021 10:01:47.787] [Render thread/INFO] [ipsis.woot.setup.ModSetup/]: ExoticDrops rolls:1 chance:1.0 weights:[4, 4, 2, 1, 1]
+[23Jan2021 10:01:50.592] [Render thread/INFO] [minecolonies/]: Beginning load of custom recipes for colony workers
+[23Jan2021 10:01:50.604] [Render thread/INFO] [minecolonies/]: Loaded 130 recipes for 10 crafters
+[23Jan2021 10:01:50.650] [Render thread/INFO] [immersiveengineering/]: Recipes for potions: ars_nouveau:mana_regen_potion_strong, minecraft:long_water_breathing, minecraft:leaping, minecraft:healing, minecraft:long_weakness, minecraft:invisibility, undergarden:long_virulent_resistance, minecraft:weakness, undergarden:strong_brittleness, minecraft:strength, minecraft:regeneration, minecraft:long_turtle_master, minecraft:strong_turtle_master, minecraft:long_slowness, minecraft:fire_resistance, minecraft:slow_falling, minecraft:strong_leaping, cyclic:swimspeed, minecraft:long_strength, minecraft:long_fire_resistance, minecraft:slowness, undergarden:brittleness, minecraft:long_poison, minecraft:turtle_master, minecraft:thick, minecraft:long_regeneration, minecraft:water, minecraft:strong_swiftness, cyclic:stun, minecraft:strong_poison, minecraft:night_vision, minecraft:long_swiftness, minecraft:strong_strength, minecraft:long_night_vision, undergarden:virulent_resistance, cyclic:haste, cyclic:strong_haste, minecraft:water_breathing, minecraft:harming, minecraft:strong_healing, minecraft:long_leaping, minecraft:poison, undergarden:long_brittleness, minecraft:mundane, minecraft:strong_slowness, minecraft:swiftness, minecraft:strong_regeneration, ars_nouveau:mana_regen_potion_long, minecraft:strong_harming, minecraft:awkward, minecraft:long_slow_falling, minecraft:long_invisibility
+[23Jan2021 10:01:50.688] [Thread-236/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 95 milliseconds
+[23Jan2021 10:01:50.691] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_axe, missing knowledge for {1 diamond_axe=1.0}
+[23Jan2021 10:01:50.691] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_boots, missing knowledge for {1 diamond_boots=1.0}
+[23Jan2021 10:01:50.692] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_shovel, missing knowledge for {1 diamond_shovel=1.0}
+[23Jan2021 10:01:50.692] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_pickaxe, missing knowledge for {1 diamond_pickaxe=1.0}
+[23Jan2021 10:01:50.692] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 jetpack_vanilla4_armored, missing knowledge for {1 netherite_chestplate=1.0}
+[23Jan2021 10:01:50.692] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_sword, missing knowledge for {1 diamond_sword=1.0}
+[23Jan2021 10:01:50.692] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_helmet, missing knowledge for {1 diamond_helmet=1.0}
+[23Jan2021 10:01:50.692] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_hoe, missing knowledge for {1 diamond_hoe=1.0}
+[23Jan2021 10:01:50.692] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 jetpack_vanilla3_armored, missing knowledge for {1 diamond_chestplate=1.0}
+[23Jan2021 10:01:50.692] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 pneumatic_leggings, missing knowledge for {1 leather_leggings=1.0}
+[23Jan2021 10:01:50.692] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_leggings, missing knowledge for {1 diamond_leggings=1.0}
+[23Jan2021 10:01:50.692] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_chestplate, missing knowledge for {1 diamond_chestplate=1.0}
+[23Jan2021 10:02:14.476] [Render thread/INFO] [corgitaco.shutupexperimentalsettings.ShutupExperimentalSettings/]: Shutup!!!
+[23Jan2021 10:02:14.478] [Render thread/INFO] [Astral Sorcery/]: Client cache cleared!
+[23Jan2021 10:02:43.481] [Thread-245/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 146 milliseconds
+[23Jan2021 10:02:46.172] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.4
+[23Jan2021 10:02:46.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Jan2021 10:02:46.238] [Server thread/INFO] [wile.rsgauges.ModRsGauges/]: Accepted wrenches: minecraft:redstone_torch,immersiveengineering:hammer,immersiveengineering:screwdriver
+[23Jan2021 10:02:46.239] [Thread-1/INFO] [wile.rsgauges.ModRsGauges/]: Config file changed rsgauges-server.toml
+[23Jan2021 10:02:46.239] [Thread-1/INFO] [wile.rsgauges.ModRsGauges/]: Accepted wrenches: minecraft:redstone_torch,immersiveengineering:hammer,immersiveengineering:screwdriver
+[23Jan2021 10:02:46.242] [Thread-253/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 103 milliseconds
+[23Jan2021 10:02:46.655] [Server thread/INFO] [STDOUT/]: [com.ma.villagers.VillagerRegistry$VillagerTradesHandler:registerTrades:211]: Registered Wandering Trader Trades
+[23Jan2021 10:02:46.655] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Mana And Artifice >> Skipped villager librarian balance changes as per config.
+[23Jan2021 10:02:46.656] [Server thread/INFO] [STDOUT/]: [com.ma.villagers.VillagerRegistry$VillagerTradesHandler:registerTrades:150]: Registered Trades
+[23Jan2021 10:02:46.674] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:02:46.674] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:02:46.682] [Server thread/INFO] [minecolonies/]: Loading Minecolonies Data
+[23Jan2021 10:02:46.683] [Server thread/INFO] [minecolonies/]: Load Complete
+[23Jan2021 10:02:46.683] [Server thread/INFO] [minecolonies/]: Server UUID 00e629d6-c74e-4c11-9555-4cbc693b16a7
+[23Jan2021 10:02:46.695] [Server thread/INFO] [FluxNetworks/]: FluxNetworkData has been successfully loaded
+[23Jan2021 10:02:47.266] [Server thread/INFO] [FluxNetworks/]: Loading 1 chunks in minecraft:overworld by 1 flux devices
+[23Jan2021 10:02:47.281] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension minecraft:overworld
+[23Jan2021 10:02:47.295] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:02:47.295] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:02:47.297] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in minecraft:the_nether by 0 flux devices
+[23Jan2021 10:02:47.304] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension minecraft:the_nether
+[23Jan2021 10:02:47.319] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:02:47.320] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:02:47.322] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in minecraft:the_end by 0 flux devices
+[23Jan2021 10:02:47.328] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension minecraft:the_end
+[23Jan2021 10:02:47.343] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:02:47.343] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:02:47.345] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in rats:ratlantis by 0 flux devices
+[23Jan2021 10:02:47.352] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension rats:ratlantis
+[23Jan2021 10:02:47.366] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:02:47.366] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:02:47.368] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in woot:tartarus by 0 flux devices
+[23Jan2021 10:02:47.375] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension woot:tartarus
+[23Jan2021 10:02:47.388] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:02:47.388] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:02:47.390] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in appliedenergistics2:spatial_storage by 0 flux devices
+[23Jan2021 10:02:47.396] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension appliedenergistics2:spatial_storage
+[23Jan2021 10:02:47.409] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:02:47.409] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:02:47.411] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in undergarden:undergarden by 0 flux devices
+[23Jan2021 10:02:47.417] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension undergarden:undergarden
+[23Jan2021 10:02:47.431] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:02:47.431] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:02:47.433] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in javd:void by 0 flux devices
+[23Jan2021 10:02:47.440] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension javd:void
+[23Jan2021 10:02:47.454] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:02:47.454] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:02:47.455] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in jamd:mining by 0 flux devices
+[23Jan2021 10:02:47.462] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension jamd:mining
+[23Jan2021 10:02:47.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23Jan2021 10:02:47.716] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[23Jan2021 10:02:48.082] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[23Jan2021 10:02:48.418] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Server starting...
+[23Jan2021 10:02:48.442] [Server thread/INFO] [FTB Chunks/]: Server 5d3b2840-2eb0-4f88-8815-d6a745cde702: Loaded 33 chunks (25 force loaded) from 2 players in 23.9902ms
+[23Jan2021 10:02:48.448] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 966 ms
+[23Jan2021 10:02:48.453] [Server thread/INFO] [ipsis.woot.setup.ModSetup/]: onServerStarting
+[23Jan2021 10:02:48.473] [Server thread/INFO] [ipsis.woot.setup.ModSetup/]: onServerStarting: force load Tartarus Cells
+[23Jan2021 10:02:48.508] [Server thread/INFO] [FTB Ranks/]: Loading command nodes...
+[23Jan2021 10:02:48.543] [Server thread/INFO] [FTB Ranks/]: Loaded 1986 command nodes
+[23Jan2021 10:02:48.564] [Server thread/INFO] [FTB Ranks/]: Loaded 3 ranks
+[23Jan2021 10:02:48.582] [Server thread/INFO] [Astral Sorcery/]: Loaded PerkTree!
+[23Jan2021 10:02:48.645] [Server thread/INFO] [FTB Utilities Backups/]: Backups folder - C:\Users\Sean\AppData\Local\.ftba\instances\c5f67197-d6da-4a17-8839-32908aed96bc\backups
+[23Jan2021 10:02:48.646] [Server thread/INFO] [structurize/]: Trying jar discover: assets/structurize
+[23Jan2021 10:02:48.647] [Server thread/INFO] [structurize/]: Trying jar discover: assets/minecolonies
+[23Jan2021 10:02:51.643] [Server thread/INFO] [structurize/]: Load additional huts or decorations from C:\Users\Sean\AppData\Local\.ftba\instances\c5f67197-d6da-4a17-8839-32908aed96bc\structurize/schematics
+[23Jan2021 10:02:51.644] [Server thread/INFO] [structurize/]: Load cached schematic from C:\Users\Sean\AppData\Local\.ftba\instances\c5f67197-d6da-4a17-8839-32908aed96bc\structurize/cache
+[23Jan2021 10:02:51.645] [Server thread/INFO] [structurize/]: Load cached schematic from C:\Users\Sean\AppData\Local\.ftba\instances\c5f67197-d6da-4a17-8839-32908aed96bc\structurize/cache
+[23Jan2021 10:02:51.788] [Server thread/INFO] [ObserverLib/]: Load CachedWorldData 'lightnetwork' for world minecraft:overworld
+[23Jan2021 10:02:51.928] [Server thread/INFO] [ObserverLib/]: Loading of 'lightnetwork' for world minecraft:overworld finished.
+[23Jan2021 10:02:51.930] [Server thread/INFO] [pneumaticcraft/]: Rebuilding Amadron offer list
+[23Jan2021 10:02:51.930] [Server thread/INFO] [pneumaticcraft/]: 32 active Amadron offers to sync to clients
+[23Jan2021 10:02:52.455] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 9, from 10
+[23Jan2021 10:02:52.528] [Netty Server IO #3/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[23Jan2021 10:02:52.980] [Render thread/INFO] [Astral Sorcery/]: Built PerkTree with 417 perks!
+[23Jan2021 10:02:54.928] [Netty Local Client IO #1/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[23Jan2021 10:02:54.999] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@7c6a15ff
+[23Jan2021 10:02:55.026] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: PurpleMagpie[local:E:43638c68] logged in with entity id 434696 at (-255.2303050027506, 63.0, 283.3289032003048)
+[23Jan2021 10:02:55.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleMagpie joined the game
+[23Jan2021 10:02:55.203] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: PurpleMagpie
+[23Jan2021 10:02:55.228] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/492773300456652807.png?v=1
+[23Jan2021 10:02:55.229] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/492773302717382656.png?v=1
+[23Jan2021 10:02:55.229] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/492773295918153728.png?v=1
+[23Jan2021 10:02:55.229] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/491439395602300928.png?v=1
+[23Jan2021 10:02:55.229] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/491439396801740810.png?v=1
+[23Jan2021 10:02:55.229] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/699724453541707887.png
+[23Jan2021 10:02:55.229] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/685176477226106880.png
+[23Jan2021 10:02:55.229] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/492743268208082945.png?v=1
+[23Jan2021 10:02:55.230] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/491439394725822474.png?v=1
+[23Jan2021 10:02:55.230] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/230592848074899456.png
+[23Jan2021 10:02:55.230] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/492743270087262221.png?v=1
+[23Jan2021 10:02:55.230] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/372788696128290817.png
+[23Jan2021 10:02:55.230] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/492773296786505738.png?v=1
+[23Jan2021 10:02:55.230] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/492743267155443713.png?v=1
+[23Jan2021 10:02:55.230] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/492773294140030998.png?v=1
+[23Jan2021 10:02:55.232] [Render thread/INFO] [lollipop/Wiki]: Started wikis recipes collecting...
+[23Jan2021 10:02:55.290] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[23Jan2021 10:02:55.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:overworld
+[23Jan2021 10:02:55.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:the_nether
+[23Jan2021 10:02:55.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:the_end
+[23Jan2021 10:02:55.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/rats:ratlantis
+[23Jan2021 10:02:55.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/woot:tartarus
+[23Jan2021 10:02:55.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/appliedenergistics2:spatial_storage
+[23Jan2021 10:02:55.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/undergarden:undergarden
+[23Jan2021 10:02:55.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/javd:void
+[23Jan2021 10:02:55.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/jamd:mining
+[23Jan2021 10:02:57.725] [Render thread/INFO] [lollipop/Wiki]: Wiki recipes collecting completed in : 2492 ms
+[23Jan2021 10:02:57.725] [Render thread/INFO] [ipsis.woot.setup.ModSetup/]: onRecipesUpdatedEvent
+[23Jan2021 10:02:57.781] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI...
+[23Jan2021 10:03:05.516] [Render thread/INFO] [immersiveengineering/]: Adding recipes to JEI!!
+[23Jan2021 10:03:05.535] [Render thread/INFO] [mezz.jei.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class com.valkyrieofnight.vlib.integration.jei.VLJEIRecipeManager
+[23Jan2021 10:03:05.536] [Render thread/INFO] [mezz.jei.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class dan200.computercraft.shared.integration.jei.RecipeResolver
+[23Jan2021 10:03:05.536] [Render thread/INFO] [mezz.jei.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class appeng.integration.modules.jei.FacadeRegistryPlugin
+[23Jan2021 10:03:05.537] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list...
+[23Jan2021 10:03:05.547] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list took 9.341 ms
+[23Jan2021 10:03:05.547] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter...
+[23Jan2021 10:03:07.441] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter took 1.893 s
+[23Jan2021 10:03:07.441] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks...
+[23Jan2021 10:03:07.448] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks took 7.269 ms
+[23Jan2021 10:03:07.448] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry...
+[23Jan2021 10:03:07.513] [Render thread/ERROR] [mezz.jei.recipes.RecipeManager/]: Found a broken recipe: Blood Magic bloodmagic:array/movement class wayoftime.bloodmagic.recipe.RecipeAlchemyArray
+Outputs:
+net.minecraft.item.ItemStack: [[1 air minecraft:air]]
+Inputs:
+net.minecraft.item.ItemStack: [[1 feather minecraft:feather], [1 redstone minecraft:redstone]]
+
+java.lang.IllegalArgumentException: ItemStack value must not be empty. 1 air minecraft:air
+	at mezz.jei.util.ErrorUtil.checkNotEmpty(ErrorUtil.java:184) ~[?:7.6.1.65]
+	at mezz.jei.plugins.vanilla.ingredients.item.ItemStackHelper.getUniqueId(ItemStackHelper.java:87) ~[?:7.6.1.65]
+	at mezz.jei.plugins.vanilla.ingredients.item.ItemStackHelper.getUniqueId(ItemStackHelper.java:28) ~[?:7.6.1.65]
+	at mezz.jei.recipes.RecipeMap.addRecipe(RecipeMap.java:94) ~[?:7.6.1.65]
+	at mezz.jei.recipes.RecipeMap.addRecipe(RecipeMap.java:75) ~[?:7.6.1.65]
+	at mezz.jei.recipes.RecipeManager.addRecipe(RecipeManager.java:144) [?:7.6.1.65]
+	at mezz.jei.recipes.RecipeManager.addRecipeTyped(RecipeManager.java:105) [?:7.6.1.65]
+	at mezz.jei.recipes.RecipeManager.addRecipes(RecipeManager.java:98) [?:7.6.1.65]
+	at mezz.jei.recipes.RecipeManager.<init>(RecipeManager.java:90) [?:7.6.1.65]
+	at mezz.jei.load.PluginLoader.getRecipeManager(PluginLoader.java:142) [?:7.6.1.65]
+	at mezz.jei.startup.JeiStarter.start(JeiStarter.java:73) [?:7.6.1.65]
+	at mezz.jei.startup.ClientLifecycleHandler.onRecipesLoaded(ClientLifecycleHandler.java:128) [?:7.6.1.65]
+	at mezz.jei.startup.ClientLifecycleHandler.lambda$new$1(ClientLifecycleHandler.java:98) [?:7.6.1.65]
+	at mezz.jei.startup.ClientLifecycleHandler$$Lambda$21829/1647953397.accept(Unknown Source) [?:7.6.1.65]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) [eventbus-3.0.5-service.jar:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) [eventbus-3.0.5-service.jar:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda$2417/760125918.invoke(Unknown Source) [eventbus-3.0.5-service.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:297) [eventbus-3.0.5-service.jar:?]
+	at net.minecraftforge.client.ForgeHooksClient.onRecipesUpdated(ForgeHooksClient.java:699) [?:?]
+	at net.minecraft.client.network.play.ClientPlayNetHandler.func_199525_a(ClientPlayNetHandler.java:1314) [?:?]
+	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:27) [?:?]
+	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:15) [?:?]
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21) [?:?]
+	at net.minecraft.network.PacketThreadUtil$$Lambda$26603/325254535.run(Unknown Source) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103) [?:?]
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:947) [?:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) [?:?]
+	at net.minecraft.client.main.Main.main(Main.java:184) [?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) [forge-1.16.4-35.1.36.jar:35.1]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$482/1984631992.call(Unknown Source) [forge-1.16.4-35.1.36.jar:35.1]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.6.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.6.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.6.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?]
+[23Jan2021 10:03:07.924] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry took 476.0 ms
+[23Jan2021 10:03:07.925] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime...
+[23Jan2021 10:03:07.935] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime took 9.920 ms
+[23Jan2021 10:03:07.937] [Render thread/INFO] [mezz.jei.ingredients.IngredientManager/]: Ingredients are being added at runtime: 24 net.minecraft.item.ItemStack
+[23Jan2021 10:03:07.940] [Render thread/INFO] [KubeJS Client/]: Hiding duplicate ores/blocks/items!
+[23Jan2021 10:03:08.470] [Render thread/INFO] [KubeJS Client/]: Duplicate ores/blocks/items hidden!
+[23Jan2021 10:03:08.473] [Render thread/INFO] [mezz.jei.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 120 net.minecraft.item.ItemStack
+[23Jan2021 10:03:08.475] [Render thread/INFO] [mezz.jei.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 10 net.minecraft.item.ItemStack
+[23Jan2021 10:03:08.475] [Render thread/ERROR] [mezz.jei.ingredients.IngredientManager/]: Could not find any matching ingredients to remove: 1 FluidDummyItem[dummy_fluid_item] appliedenergistics2:dummy_fluid_item
+[23Jan2021 10:03:08.480] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI took 10.70 s
+[23Jan2021 10:03:08.515] [Render thread/INFO] [Botany Pots/]: Loaded 118 botanypots:crop recipes from 5 namespaces
+[23Jan2021 10:03:08.515] [Render thread/INFO] [Botany Pots/]: Loaded 3 botanypots:fertilizer recipes from 3 namespaces
+[23Jan2021 10:03:08.515] [Render thread/INFO] [Botany Pots/]: Loaded 28 botanypots:soil recipes from 3 namespaces
+[23Jan2021 10:03:08.868] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   6 tweaks
+[23Jan2021 10:03:08.870] [Render thread/INFO] [se.mickelus.tetra.data.MergingDataStore/]: Loaded  69 materials
+[23Jan2021 10:03:08.876] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded 226 improvements
+[23Jan2021 10:03:08.900] [Render thread/INFO] [se.mickelus.tetra.data.MergingDataStore/]: Loaded  64 modules
+[23Jan2021 10:03:08.964] [Render thread/INFO] [se.mickelus.tetra.client.model.ModularModelLoader/]: Clearing model cache for 7 items, let's get bakin'
+[23Jan2021 10:03:08.965] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  10 enchantments
+[23Jan2021 10:03:08.965] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   3 synergies
+[23Jan2021 10:03:08.966] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  10 replacements
+[23Jan2021 10:03:08.973] [Render thread/INFO] [se.mickelus.tetra.data.MergingDataStore/]: Loaded 286 schematics
+[23Jan2021 10:03:09.001] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  11 repairs
+[23Jan2021 10:03:09.001] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   4 predicatus
+[23Jan2021 10:03:09.003] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   2 actions
+[23Jan2021 10:03:09.003] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  10 destabilization
+[23Jan2021 10:03:09.004] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  45 structures
+[23Jan2021 10:03:09.011] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1970 advancements
+[23Jan2021 10:03:09.579] [Render thread/WARN] [patchouli/]: Invalid extra recipe mapping: bloodmagic:livinghelmet to page 4 in entry bloodmagic:living_equipment/living_basics: Empty entry or page out of bounds
+[23Jan2021 10:03:09.579] [Render thread/WARN] [patchouli/]: Invalid extra recipe mapping: bloodmagic:livingplate to page 4 in entry bloodmagic:living_equipment/living_basics: Empty entry or page out of bounds
+[23Jan2021 10:03:09.579] [Render thread/WARN] [patchouli/]: Invalid extra recipe mapping: bloodmagic:livingleggings to page 4 in entry bloodmagic:living_equipment/living_basics: Empty entry or page out of bounds
+[23Jan2021 10:03:09.580] [Render thread/WARN] [patchouli/]: Invalid extra recipe mapping: bloodmagic:livingboots to page 4 in entry bloodmagic:living_equipment/living_basics: Empty entry or page out of bounds
+[23Jan2021 10:03:11.199] [Render thread/INFO] [structurize/]: Trying jar discover: assets/structurize
+[23Jan2021 10:03:11.201] [Render thread/INFO] [structurize/]: Trying jar discover: assets/minecolonies
+[23Jan2021 10:03:14.094] [Render thread/INFO] [structurize/]: Load additional huts or decorations from C:\Users\Sean\AppData\Local\.ftba\instances\c5f67197-d6da-4a17-8839-32908aed96bc\structurize/schematics
+[23Jan2021 10:03:14.095] [Render thread/INFO] [structurize/]: Load cached schematic from C:\Users\Sean\AppData\Local\.ftba\instances\c5f67197-d6da-4a17-8839-32908aed96bc\structurize/cache
+[23Jan2021 10:03:14.095] [Render thread/INFO] [structurize/]: Load cached schematic from C:\Users\Sean\AppData\Local\.ftba\instances\c5f67197-d6da-4a17-8839-32908aed96bc\structurize/cache
+[23Jan2021 10:10:12.291] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] [Debug]: Chunk borders: hidden
+[23Jan2021 10:11:30.911] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[23Jan2021 10:11:30.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:overworld
+[23Jan2021 10:11:31.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:the_nether
+[23Jan2021 10:11:31.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:the_end
+[23Jan2021 10:11:31.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/rats:ratlantis
+[23Jan2021 10:11:31.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/woot:tartarus
+[23Jan2021 10:11:31.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/appliedenergistics2:spatial_storage
+[23Jan2021 10:11:31.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/undergarden:undergarden
+[23Jan2021 10:11:31.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/javd:void
+[23Jan2021 10:11:31.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/jamd:mining
+[23Jan2021 10:11:33.894] [Render thread/INFO] [Astral Sorcery/]: Client cache cleared!
+[23Jan2021 10:11:33.904] [Render thread/INFO] [minecolonies/]: Removed all colony views
+[23Jan2021 10:11:33.936] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: PurpleMagpie lost connection: Disconnected
+[23Jan2021 10:11:33.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleMagpie left the game
+[23Jan2021 10:11:33.971] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[23Jan2021 10:11:34.000] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Server stopping...
+[23Jan2021 10:11:34.003] [Server thread/INFO] [ipsis.woot.setup.ModSetup/]: onServerStop
+[23Jan2021 10:11:34.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23Jan2021 10:11:34.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23Jan2021 10:11:34.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23Jan2021 10:11:34.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:overworld
+[23Jan2021 10:11:34.408] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Defect Backup): All chunks are saved
+[23Jan2021 10:11:34.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:the_nether
+[23Jan2021 10:11:34.410] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23Jan2021 10:11:34.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:the_end
+[23Jan2021 10:11:34.411] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23Jan2021 10:11:34.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/rats:ratlantis
+[23Jan2021 10:11:34.412] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (ratlantis): All chunks are saved
+[23Jan2021 10:11:34.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/woot:tartarus
+[23Jan2021 10:11:34.420] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (tartarus): All chunks are saved
+[23Jan2021 10:11:34.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/appliedenergistics2:spatial_storage
+[23Jan2021 10:11:34.422] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[23Jan2021 10:11:34.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/undergarden:undergarden
+[23Jan2021 10:11:34.423] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (undergarden): All chunks are saved
+[23Jan2021 10:11:34.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/javd:void
+[23Jan2021 10:11:34.424] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (void): All chunks are saved
+[23Jan2021 10:11:34.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/jamd:mining
+[23Jan2021 10:11:34.426] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mining): All chunks are saved
+[23Jan2021 10:11:34.546] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Defect Backup): All chunks are saved
+[23Jan2021 10:11:34.559] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23Jan2021 10:11:34.560] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23Jan2021 10:11:34.560] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (ratlantis): All chunks are saved
+[23Jan2021 10:11:34.561] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (tartarus): All chunks are saved
+[23Jan2021 10:11:34.566] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[23Jan2021 10:11:34.567] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (undergarden): All chunks are saved
+[23Jan2021 10:11:34.567] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (void): All chunks are saved
+[23Jan2021 10:11:34.567] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mining): All chunks are saved
+[23Jan2021 10:11:55.772] [Server thread/INFO] [FluxNetworks/]: FluxNetworkData has been unloaded
+[23Jan2021 10:11:55.939] [Render thread/WARN] [net.minecraft.client.shader.ShaderInstance/]: Could not find uniform named resolution in the specified shader program.
+[23Jan2021 10:12:01.761] [Render thread/INFO] [Bookshelf/]: Registering 1 commands.
+[23Jan2021 10:12:01.764] [Render thread/INFO] [ipsis.woot.setup.ModSetup/]: onRegisterCommandsEvent
+[23Jan2021 10:12:01.781] [Render thread/INFO] [Dungeon Crawl/]: Adding datapack reload listener
+[23Jan2021 10:12:01.900] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:unify/unify.js in 0.012 s
+[23Jan2021 10:12:01.905] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/ae.js in 0.005 s
+[23Jan2021 10:12:01.908] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/bigreactors.js in 0.002 s
+[23Jan2021 10:12:01.913] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/comforts.js in 0.005 s
+[23Jan2021 10:12:01.915] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/cyclic.js in 0.002 s
+[23Jan2021 10:12:01.917] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/ie.js in 0.002 s
+[23Jan2021 10:12:01.923] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/if.js in 0.006 s
+[23Jan2021 10:12:01.927] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/mekanism.js in 0.003 s
+[23Jan2021 10:12:01.929] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/rats.js in 0.002 s
+[23Jan2021 10:12:01.934] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/thermal.js in 0.005 s
+[23Jan2021 10:12:01.938] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:recipes/minecraft.js in 0.004 s
+[23Jan2021 10:12:01.941] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:emojiful/direwolf.js in 0.003 s
+[23Jan2021 10:12:01.944] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded script server_scripts:emojiful/ftb.js in 0.003 s
+[23Jan2021 10:12:01.945] [Render thread/INFO] [KubeJS Server/]: SourceFile:407: Loaded 13/13 KubeJS server scripts in 0.076 s
+[23Jan2021 10:12:01.945] [Render thread/INFO] [KubeJS Server/]: Scripts loaded
+[23Jan2021 10:12:01.945] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:crushing
+[23Jan2021 10:12:01.945] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:enriching
+[23Jan2021 10:12:01.945] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:smelting
+[23Jan2021 10:12:01.945] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:chemical_infusing
+[23Jan2021 10:12:01.945] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:combining
+[23Jan2021 10:12:01.945] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:crystallizing
+[23Jan2021 10:12:01.945] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:dissolution
+[23Jan2021 10:12:01.945] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:compressing
+[23Jan2021 10:12:01.945] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:purifying
+[23Jan2021 10:12:01.945] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:injecting
+[23Jan2021 10:12:01.945] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:energy_conversion
+[23Jan2021 10:12:01.945] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:gas_conversion
+[23Jan2021 10:12:01.945] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:oxidizing
+[23Jan2021 10:12:01.945] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:metallurgic_infusing
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:reaction
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:sawing
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:altar
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:array
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:soulforge
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:arc
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:alchemytable
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:furnace
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:sawmill
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:pulverizer
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:smelter
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:insolator
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:centrifuge
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:press
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:crucible
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:chiller
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:refinery
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:brewer
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:bottler
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:pulverizer_catalyst
+[23Jan2021 10:12:01.946] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:smelter_catalyst
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:insolator_catalyst
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:stirling_fuel
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:compression_fuel
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:magmatic_fuel
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:numismatic_fuel
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:lapidary_fuel
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:blockzapper_upgrade
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:mechanical_crafting
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:conversion
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:crushing
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:cutting
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:milling
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:basin
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:mixing
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:compacting
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:pressing
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:sandpaper_polishing
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:splashing
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:filling
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type create:emptying
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:turn_and_copy
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:alloy
+[23Jan2021 10:12:01.947] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:blast_furnace
+[23Jan2021 10:12:01.948] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:blast_furnace_fuel
+[23Jan2021 10:12:01.948] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:coke_oven
+[23Jan2021 10:12:01.948] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:cloche
+[23Jan2021 10:12:01.948] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:fertilizer
+[23Jan2021 10:12:01.948] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:metal_press
+[23Jan2021 10:12:01.948] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:arc_furnace
+[23Jan2021 10:12:01.948] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:crusher
+[23Jan2021 10:12:01.948] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:sawmill
+[23Jan2021 10:12:01.948] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:crafting_shaped
+[23Jan2021 10:12:01.948] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:crafting_shapeless
+[23Jan2021 10:12:01.948] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:stonecutting
+[23Jan2021 10:12:01.948] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smelting
+[23Jan2021 10:12:01.948] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:blasting
+[23Jan2021 10:12:01.948] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smoking
+[23Jan2021 10:12:01.948] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:campfire_cooking
+[23Jan2021 10:12:01.948] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smithing
+[23Jan2021 10:12:01.949] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type botanypots:crop
+[23Jan2021 10:12:01.949] [Render thread/INFO] [KubeJS Server/]: Scanning recipes...
+[23Jan2021 10:12:05.315] [Render thread/INFO] [KubeJS Server/]: [blocks] Found 525 tags, added 3 objects, removed 10 objects
+[23Jan2021 10:12:05.322] [Render thread/INFO] [KubeJS Server/]: [items] Found 1085 tags, added 14 objects, removed 24 objects
+[23Jan2021 10:12:05.328] [Render thread/INFO] [KubeJS Server/]: [fluids] Found 51 tags, added 1 objects, removed 6 objects
+[23Jan2021 10:12:05.328] [Render thread/INFO] [KubeJS Server/]: [entity_types] Found 13 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:12:05.328] [Render thread/INFO] [KubeJS Server/]: [potions] Found 0 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:12:05.329] [Render thread/INFO] [KubeJS Server/]: [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:12:05.329] [Render thread/INFO] [KubeJS Server/]: [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:12:05.329] [Render thread/INFO] [KubeJS Server/]: [tile_entity_types] Found 3 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:12:05.329] [Render thread/INFO] [KubeJS Server/]: [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:12:05.330] [Render thread/INFO] [KubeJS Server/]: [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:12:05.330] [Render thread/INFO] [KubeJS Server/]: [gases] Found 5 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:12:05.864] [Render thread/INFO] [KubeJS Server/]: Found 13415 recipes and 0 failed recipes in 533.1 ms
+[23Jan2021 10:12:08.088] [Render thread/INFO] [KubeJS Server/]: Posted recipe events in 2.224 s
+[23Jan2021 10:12:08.461] [Render thread/INFO] [KubeJS Server/]: Modified & removed recipes in 372.6 ms
+[23Jan2021 10:12:08.464] [Render thread/INFO] [KubeJS Server/]: Added recipes in 2.999 ms
+[23Jan2021 10:12:08.464] [Render thread/INFO] [KubeJS Server/]: Added 131 recipes, removed 164 recipes, modified 625 recipes, with 0 failed recipes and 0 fall-backed recipes
+[23Jan2021 10:12:11.630] [Render thread/INFO] [placebo/]: Registered 0 additional loot tables.
+[23Jan2021 10:12:11.630] [Render thread/INFO] [KubeJS Server/]: [functions] Found 0 tags, added 0 objects, removed 0 objects
+[23Jan2021 10:12:11.698] [Render thread/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement simplemagnets:recipes/search/advanced_magnet: Unknown required criterion 'basic_magnet'
+[23Jan2021 10:12:11.706] [Render thread/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement tetra:spelunking/chthonic_crossbow: Unknown required criterion 'unused'
+[23Jan2021 10:12:11.740] [Render thread/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement tetra:spelunking/chthonic_cooldown: Task Advancement{parentId=tetra:spelunking/chthonic_crossbow, display=net.minecraft.advancements.DisplayInfo@5c176fa6, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.command.FunctionObject$CacheableFunction@48f14751}, criteria={cooldown=net.minecraft.advancements.Criterion@f7c27b6}, requirements=[[cooldown]]}
+[23Jan2021 10:12:11.752] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4904 advancements
+[23Jan2021 10:12:11.757] [Render thread/INFO] [placebo/]: Registered 0 additional recipes.
+[23Jan2021 10:12:12.544] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   6 tweaks
+[23Jan2021 10:12:12.544] [Render thread/INFO] [se.mickelus.tetra.data.MergingDataStore/]: Loaded  69 materials
+[23Jan2021 10:12:12.546] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded 226 improvements
+[23Jan2021 10:12:12.568] [Render thread/INFO] [se.mickelus.tetra.data.MergingDataStore/]: Loaded  64 modules
+[23Jan2021 10:12:12.630] [Render thread/INFO] [se.mickelus.tetra.client.model.ModularModelLoader/]: Clearing model cache for 7 items, let's get bakin'
+[23Jan2021 10:12:12.630] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  10 enchantments
+[23Jan2021 10:12:12.631] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   3 synergies
+[23Jan2021 10:12:12.631] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  10 replacements
+[23Jan2021 10:12:12.634] [Render thread/INFO] [se.mickelus.tetra.data.MergingDataStore/]: Loaded 286 schematics
+[23Jan2021 10:12:12.665] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  11 repairs
+[23Jan2021 10:12:12.666] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   4 predicatus
+[23Jan2021 10:12:12.667] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   2 actions
+[23Jan2021 10:12:12.667] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  10 destabilization
+[23Jan2021 10:12:12.667] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  45 structures
+[23Jan2021 10:12:12.680] [Render thread/INFO] [Astral Sorcery/]: Built PerkTree with 417 perks!
+[23Jan2021 10:12:12.680] [Render thread/INFO] [Dungeon Crawl/]: Loading data...
+[23Jan2021 10:12:13.166] [Render thread/INFO] [Dungeon Crawl/]: Finished data loading.
+[23Jan2021 10:12:13.166] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for quark:permafrost: mod 'quark' not loaded
+[23Jan2021 10:12:13.167] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for natura:nether_heat_sand: mod 'natura' not loaded
+[23Jan2021 10:12:13.167] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for quark:brimstone: mod 'quark' not loaded
+[23Jan2021 10:12:13.167] [Render thread/INFO] [pneumaticcraft/]: ignoring heat properties for quark:blaze_lantern: mod 'quark' not loaded
+[23Jan2021 10:12:13.167] [Render thread/INFO] [ipsis.woot.setup.ModSetup/]: ExoticDrops rolls:1 chance:1.0 weights:[4, 4, 2, 1, 1]
+[23Jan2021 10:12:15.985] [Render thread/INFO] [minecolonies/]: Beginning load of custom recipes for colony workers
+[23Jan2021 10:12:15.993] [Render thread/INFO] [minecolonies/]: Loaded 130 recipes for 10 crafters
+[23Jan2021 10:12:16.040] [Render thread/INFO] [immersiveengineering/]: Recipes for potions: ars_nouveau:mana_regen_potion_strong, minecraft:long_water_breathing, minecraft:leaping, minecraft:healing, minecraft:long_weakness, minecraft:invisibility, undergarden:long_virulent_resistance, minecraft:weakness, undergarden:strong_brittleness, minecraft:strength, minecraft:regeneration, minecraft:long_turtle_master, minecraft:strong_turtle_master, minecraft:long_slowness, minecraft:fire_resistance, minecraft:slow_falling, minecraft:strong_leaping, cyclic:swimspeed, minecraft:long_strength, minecraft:long_fire_resistance, minecraft:slowness, undergarden:brittleness, minecraft:long_poison, minecraft:turtle_master, minecraft:thick, minecraft:long_regeneration, minecraft:water, minecraft:strong_swiftness, cyclic:stun, minecraft:strong_poison, minecraft:night_vision, minecraft:long_swiftness, minecraft:strong_strength, minecraft:long_night_vision, undergarden:virulent_resistance, cyclic:haste, cyclic:strong_haste, minecraft:water_breathing, minecraft:harming, minecraft:strong_healing, minecraft:long_leaping, minecraft:poison, undergarden:long_brittleness, minecraft:mundane, minecraft:strong_slowness, minecraft:swiftness, minecraft:strong_regeneration, ars_nouveau:mana_regen_potion_long, minecraft:strong_harming, minecraft:awkward, minecraft:long_slow_falling, minecraft:long_invisibility
+[23Jan2021 10:12:16.103] [Thread-281/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 118 milliseconds
+[23Jan2021 10:12:16.107] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_chestplate, missing knowledge for {1 diamond_chestplate=1.0}
+[23Jan2021 10:12:16.107] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_hoe, missing knowledge for {1 diamond_hoe=1.0}
+[23Jan2021 10:12:16.107] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_sword, missing knowledge for {1 diamond_sword=1.0}
+[23Jan2021 10:12:16.107] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_boots, missing knowledge for {1 diamond_boots=1.0}
+[23Jan2021 10:12:16.107] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_helmet, missing knowledge for {1 diamond_helmet=1.0}
+[23Jan2021 10:12:16.107] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_shovel, missing knowledge for {1 diamond_shovel=1.0}
+[23Jan2021 10:12:16.107] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 pneumatic_leggings, missing knowledge for {1 leather_leggings=1.0}
+[23Jan2021 10:12:16.107] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 jetpack_vanilla3_armored, missing knowledge for {1 diamond_chestplate=1.0}
+[23Jan2021 10:12:16.107] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_pickaxe, missing knowledge for {1 diamond_pickaxe=1.0}
+[23Jan2021 10:12:16.107] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_leggings, missing knowledge for {1 diamond_leggings=1.0}
+[23Jan2021 10:12:16.107] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 jetpack_vanilla4_armored, missing knowledge for {1 netherite_chestplate=1.0}
+[23Jan2021 10:12:16.107] [Render thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ratlantis_axe, missing knowledge for {1 diamond_axe=1.0}
+[23Jan2021 10:12:38.663] [Render thread/INFO] [corgitaco.shutupexperimentalsettings.ShutupExperimentalSettings/]: Shutup!!!
+[23Jan2021 10:12:38.664] [Render thread/INFO] [Astral Sorcery/]: Client cache cleared!
+[23Jan2021 10:13:01.849] [Thread-290/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 96 milliseconds
+[23Jan2021 10:13:04.236] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.4
+[23Jan2021 10:13:04.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Jan2021 10:13:04.270] [Thread-298/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 93 milliseconds
+[23Jan2021 10:13:04.349] [Server thread/INFO] [wile.rsgauges.ModRsGauges/]: Accepted wrenches: minecraft:redstone_torch,immersiveengineering:hammer,immersiveengineering:screwdriver
+[23Jan2021 10:13:04.729] [Server thread/INFO] [STDOUT/]: [com.ma.villagers.VillagerRegistry$VillagerTradesHandler:registerTrades:211]: Registered Wandering Trader Trades
+[23Jan2021 10:13:04.730] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Mana And Artifice >> Skipped villager librarian balance changes as per config.
+[23Jan2021 10:13:04.731] [Server thread/INFO] [STDOUT/]: [com.ma.villagers.VillagerRegistry$VillagerTradesHandler:registerTrades:150]: Registered Trades
+[23Jan2021 10:13:04.748] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:13:04.748] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:13:04.749] [Server thread/INFO] [minecolonies/]: Loading Minecolonies Data
+[23Jan2021 10:13:04.749] [Server thread/INFO] [minecolonies/]: Load Complete
+[23Jan2021 10:13:04.749] [Server thread/INFO] [minecolonies/]: Server UUID 00e629d6-c74e-4c11-9555-4cbc693b16a7
+[23Jan2021 10:13:04.760] [Server thread/INFO] [FluxNetworks/]: FluxNetworkData has been successfully loaded
+[23Jan2021 10:13:05.503] [Server thread/INFO] [FluxNetworks/]: Loading 1 chunks in minecraft:overworld by 1 flux devices
+[23Jan2021 10:13:05.516] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension minecraft:overworld
+[23Jan2021 10:13:05.530] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:13:05.530] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:13:05.531] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in minecraft:the_nether by 0 flux devices
+[23Jan2021 10:13:05.538] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension minecraft:the_nether
+[23Jan2021 10:13:05.552] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:13:05.552] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:13:05.554] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in minecraft:the_end by 0 flux devices
+[23Jan2021 10:13:05.560] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension minecraft:the_end
+[23Jan2021 10:13:05.574] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:13:05.574] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:13:05.575] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in rats:ratlantis by 0 flux devices
+[23Jan2021 10:13:05.582] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension rats:ratlantis
+[23Jan2021 10:13:05.595] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:13:05.595] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:13:05.597] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in woot:tartarus by 0 flux devices
+[23Jan2021 10:13:05.604] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension woot:tartarus
+[23Jan2021 10:13:05.617] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:13:05.617] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:13:05.618] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in appliedenergistics2:spatial_storage by 0 flux devices
+[23Jan2021 10:13:05.624] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension appliedenergistics2:spatial_storage
+[23Jan2021 10:13:05.637] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:13:05.637] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:13:05.638] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in undergarden:undergarden by 0 flux devices
+[23Jan2021 10:13:05.645] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension undergarden:undergarden
+[23Jan2021 10:13:05.658] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:13:05.658] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:13:05.660] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in javd:void by 0 flux devices
+[23Jan2021 10:13:05.666] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension javd:void
+[23Jan2021 10:13:05.680] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Teleport Locations loaded successfully!
+[23Jan2021 10:13:05.680] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Known Runes loaded successfully!
+[23Jan2021 10:13:05.682] [Server thread/INFO] [FluxNetworks/]: Loading 0 chunks in jamd:mining by 0 flux devices
+[23Jan2021 10:13:05.688] [Server thread/INFO] [Mekanism ChunkManager/]: Loading 0 chunks for dimension jamd:mining
+[23Jan2021 10:13:05.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23Jan2021 10:13:05.922] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[23Jan2021 10:13:06.256] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[23Jan2021 10:13:06.656] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Server starting...
+[23Jan2021 10:13:06.668] [Server thread/INFO] [FTB Chunks/]: Server 5d3b2840-2eb0-4f88-8815-d6a745cde702: Loaded 33 chunks (25 force loaded) from 2 players in 11.8577ms
+[23Jan2021 10:13:06.676] [Server thread/INFO] [ipsis.woot.setup.ModSetup/]: onServerStarting
+[23Jan2021 10:13:06.688] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 965 ms
+[23Jan2021 10:13:06.693] [Server thread/INFO] [ipsis.woot.setup.ModSetup/]: onServerStarting: force load Tartarus Cells
+[23Jan2021 10:13:06.717] [Server thread/INFO] [FTB Ranks/]: Loading command nodes...
+[23Jan2021 10:13:06.750] [Server thread/INFO] [FTB Ranks/]: Loaded 1986 command nodes
+[23Jan2021 10:13:06.759] [Server thread/INFO] [FTB Ranks/]: Loaded 3 ranks
+[23Jan2021 10:13:06.775] [Server thread/INFO] [Astral Sorcery/]: Loaded PerkTree!
+[23Jan2021 10:13:06.821] [Server thread/INFO] [FTB Utilities Backups/]: Backups folder - C:\Users\Sean\AppData\Local\.ftba\instances\c5f67197-d6da-4a17-8839-32908aed96bc\backups
+[23Jan2021 10:13:06.821] [Server thread/INFO] [structurize/]: Trying jar discover: assets/structurize
+[23Jan2021 10:13:06.822] [Server thread/INFO] [structurize/]: Trying jar discover: assets/minecolonies
+[23Jan2021 10:13:09.578] [Server thread/INFO] [structurize/]: Load additional huts or decorations from C:\Users\Sean\AppData\Local\.ftba\instances\c5f67197-d6da-4a17-8839-32908aed96bc\structurize/schematics
+[23Jan2021 10:13:09.578] [Server thread/INFO] [structurize/]: Load cached schematic from C:\Users\Sean\AppData\Local\.ftba\instances\c5f67197-d6da-4a17-8839-32908aed96bc\structurize/cache
+[23Jan2021 10:13:09.579] [Server thread/INFO] [structurize/]: Load cached schematic from C:\Users\Sean\AppData\Local\.ftba\instances\c5f67197-d6da-4a17-8839-32908aed96bc\structurize/cache
+[23Jan2021 10:13:09.707] [Server thread/INFO] [ObserverLib/]: Load CachedWorldData 'lightnetwork' for world minecraft:overworld
+[23Jan2021 10:13:09.736] [Server thread/INFO] [ObserverLib/]: Loading of 'lightnetwork' for world minecraft:overworld finished.
+[23Jan2021 10:13:09.737] [Server thread/INFO] [pneumaticcraft/]: Rebuilding Amadron offer list
+[23Jan2021 10:13:09.737] [Server thread/INFO] [pneumaticcraft/]: 32 active Amadron offers to sync to clients
+[23Jan2021 10:13:10.234] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 9, from 10
+[23Jan2021 10:13:10.312] [Netty Server IO #5/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[23Jan2021 10:13:10.701] [Render thread/INFO] [Astral Sorcery/]: Built PerkTree with 417 perks!
+[23Jan2021 10:13:12.960] [Netty Local Client IO #2/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[23Jan2021 10:13:13.033] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@1fdca32c
+[23Jan2021 10:13:13.065] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: PurpleMagpie[local:E:c7d77c61] logged in with entity id 499032 at (-281.49409145041636, 63.0, 314.9531126293706)
+[23Jan2021 10:13:13.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleMagpie joined the game
+[23Jan2021 10:13:13.211] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: PurpleMagpie
+[23Jan2021 10:13:13.227] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/492773300456652807.png?v=1
+[23Jan2021 10:13:13.228] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/492773302717382656.png?v=1
+[23Jan2021 10:13:13.228] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/492773295918153728.png?v=1
+[23Jan2021 10:13:13.228] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/491439395602300928.png?v=1
+[23Jan2021 10:13:13.228] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/699724453541707887.png
+[23Jan2021 10:13:13.228] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/491439396801740810.png?v=1
+[23Jan2021 10:13:13.230] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/492743268208082945.png?v=1
+[23Jan2021 10:13:13.230] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/685176477226106880.png
+[23Jan2021 10:13:13.230] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/491439394725822474.png?v=1
+[23Jan2021 10:13:13.230] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/492743270087262221.png?v=1
+[23Jan2021 10:13:13.230] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/230592848074899456.png
+[23Jan2021 10:13:13.230] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/372788696128290817.png
+[23Jan2021 10:13:13.230] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/492773296786505738.png?v=1
+[23Jan2021 10:13:13.230] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/492743267155443713.png?v=1
+[23Jan2021 10:13:13.230] [Render thread/INFO] [STDOUT/]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/492773294140030998.png?v=1
+[23Jan2021 10:13:13.231] [Render thread/INFO] [lollipop/Wiki]: Started wikis recipes collecting...
+[23Jan2021 10:13:13.260] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[23Jan2021 10:13:13.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:overworld
+[23Jan2021 10:13:13.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:the_nether
+[23Jan2021 10:13:13.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:the_end
+[23Jan2021 10:13:13.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/rats:ratlantis
+[23Jan2021 10:13:13.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/woot:tartarus
+[23Jan2021 10:13:13.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/appliedenergistics2:spatial_storage
+[23Jan2021 10:13:13.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/undergarden:undergarden
+[23Jan2021 10:13:13.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/javd:void
+[23Jan2021 10:13:13.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/jamd:mining
+[23Jan2021 10:13:15.821] [Render thread/INFO] [lollipop/Wiki]: Wiki recipes collecting completed in : 2590 ms
+[23Jan2021 10:13:15.821] [Render thread/INFO] [ipsis.woot.setup.ModSetup/]: onRecipesUpdatedEvent
+[23Jan2021 10:13:15.868] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI...
+[23Jan2021 10:13:23.412] [Render thread/INFO] [immersiveengineering/]: Adding recipes to JEI!!
+[23Jan2021 10:13:23.431] [Render thread/INFO] [mezz.jei.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class com.valkyrieofnight.vlib.integration.jei.VLJEIRecipeManager
+[23Jan2021 10:13:23.432] [Render thread/INFO] [mezz.jei.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class dan200.computercraft.shared.integration.jei.RecipeResolver
+[23Jan2021 10:13:23.432] [Render thread/INFO] [mezz.jei.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class appeng.integration.modules.jei.FacadeRegistryPlugin
+[23Jan2021 10:13:23.433] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list...
+[23Jan2021 10:13:23.442] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list took 9.098 ms
+[23Jan2021 10:13:23.442] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter...
+[23Jan2021 10:13:25.269] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter took 1.826 s
+[23Jan2021 10:13:25.269] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks...
+[23Jan2021 10:13:25.269] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks took 384.9 ?s
+[23Jan2021 10:13:25.269] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry...
+[23Jan2021 10:13:25.331] [Render thread/ERROR] [mezz.jei.recipes.RecipeManager/]: Found a broken recipe: Blood Magic bloodmagic:array/movement class wayoftime.bloodmagic.recipe.RecipeAlchemyArray
+Outputs:
+net.minecraft.item.ItemStack: [[1 air minecraft:air]]
+Inputs:
+net.minecraft.item.ItemStack: [[1 feather minecraft:feather], [1 redstone minecraft:redstone]]
+
+java.lang.IllegalArgumentException: ItemStack value must not be empty. 1 air minecraft:air
+	at mezz.jei.util.ErrorUtil.checkNotEmpty(ErrorUtil.java:184) ~[?:7.6.1.65]
+	at mezz.jei.plugins.vanilla.ingredients.item.ItemStackHelper.getUniqueId(ItemStackHelper.java:87) ~[?:7.6.1.65]
+	at mezz.jei.plugins.vanilla.ingredients.item.ItemStackHelper.getUniqueId(ItemStackHelper.java:28) ~[?:7.6.1.65]
+	at mezz.jei.recipes.RecipeMap.addRecipe(RecipeMap.java:94) ~[?:7.6.1.65]
+	at mezz.jei.recipes.RecipeMap.addRecipe(RecipeMap.java:75) ~[?:7.6.1.65]
+	at mezz.jei.recipes.RecipeManager.addRecipe(RecipeManager.java:144) [?:7.6.1.65]
+	at mezz.jei.recipes.RecipeManager.addRecipeTyped(RecipeManager.java:105) [?:7.6.1.65]
+	at mezz.jei.recipes.RecipeManager.addRecipes(RecipeManager.java:98) [?:7.6.1.65]
+	at mezz.jei.recipes.RecipeManager.<init>(RecipeManager.java:90) [?:7.6.1.65]
+	at mezz.jei.load.PluginLoader.getRecipeManager(PluginLoader.java:142) [?:7.6.1.65]
+	at mezz.jei.startup.JeiStarter.start(JeiStarter.java:73) [?:7.6.1.65]
+	at mezz.jei.startup.ClientLifecycleHandler.onRecipesLoaded(ClientLifecycleHandler.java:128) [?:7.6.1.65]
+	at mezz.jei.startup.ClientLifecycleHandler.lambda$new$1(ClientLifecycleHandler.java:98) [?:7.6.1.65]
+	at mezz.jei.startup.ClientLifecycleHandler$$Lambda$21829/1647953397.accept(Unknown Source) [?:7.6.1.65]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) [eventbus-3.0.5-service.jar:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) [eventbus-3.0.5-service.jar:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda$2417/760125918.invoke(Unknown Source) [eventbus-3.0.5-service.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:297) [eventbus-3.0.5-service.jar:?]
+	at net.minecraftforge.client.ForgeHooksClient.onRecipesUpdated(ForgeHooksClient.java:699) [?:?]
+	at net.minecraft.client.network.play.ClientPlayNetHandler.func_199525_a(ClientPlayNetHandler.java:1314) [?:?]
+	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:27) [?:?]
+	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:15) [?:?]
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21) [?:?]
+	at net.minecraft.network.PacketThreadUtil$$Lambda$26603/325254535.run(Unknown Source) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103) [?:?]
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:947) [?:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) [?:?]
+	at net.minecraft.client.main.Main.main(Main.java:184) [?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) [forge-1.16.4-35.1.36.jar:35.1]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$482/1984631992.call(Unknown Source) [forge-1.16.4-35.1.36.jar:35.1]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.6.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.6.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.6.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?]
+[23Jan2021 10:13:25.714] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry took 444.6 ms
+[23Jan2021 10:13:25.714] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime...
+[23Jan2021 10:13:25.722] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime took 7.765 ms
+[23Jan2021 10:13:25.724] [Render thread/INFO] [mezz.jei.ingredients.IngredientManager/]: Ingredients are being added at runtime: 24 net.minecraft.item.ItemStack
+[23Jan2021 10:13:25.728] [Render thread/INFO] [KubeJS Client/]: Hiding duplicate ores/blocks/items!
+[23Jan2021 10:13:25.869] [Render thread/INFO] [KubeJS Client/]: Duplicate ores/blocks/items hidden!
+[23Jan2021 10:13:25.870] [Render thread/INFO] [mezz.jei.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 120 net.minecraft.item.ItemStack
+[23Jan2021 10:13:25.873] [Render thread/INFO] [mezz.jei.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 10 net.minecraft.item.ItemStack
+[23Jan2021 10:13:25.873] [Render thread/ERROR] [mezz.jei.ingredients.IngredientManager/]: Could not find any matching ingredients to remove: 1 FluidDummyItem[dummy_fluid_item] appliedenergistics2:dummy_fluid_item
+[23Jan2021 10:13:25.878] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI took 10.01 s
+[23Jan2021 10:13:25.905] [Render thread/INFO] [Botany Pots/]: Loaded 118 botanypots:crop recipes from 5 namespaces
+[23Jan2021 10:13:25.906] [Render thread/INFO] [Botany Pots/]: Loaded 3 botanypots:fertilizer recipes from 3 namespaces
+[23Jan2021 10:13:25.906] [Render thread/INFO] [Botany Pots/]: Loaded 28 botanypots:soil recipes from 3 namespaces
+[23Jan2021 10:13:26.257] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   6 tweaks
+[23Jan2021 10:13:26.259] [Render thread/INFO] [se.mickelus.tetra.data.MergingDataStore/]: Loaded  69 materials
+[23Jan2021 10:13:26.266] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded 226 improvements
+[23Jan2021 10:13:26.293] [Render thread/INFO] [se.mickelus.tetra.data.MergingDataStore/]: Loaded  64 modules
+[23Jan2021 10:13:26.339] [Render thread/INFO] [se.mickelus.tetra.client.model.ModularModelLoader/]: Clearing model cache for 7 items, let's get bakin'
+[23Jan2021 10:13:26.340] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  10 enchantments
+[23Jan2021 10:13:26.341] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   3 synergies
+[23Jan2021 10:13:26.341] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  10 replacements
+[23Jan2021 10:13:26.346] [Render thread/INFO] [se.mickelus.tetra.data.MergingDataStore/]: Loaded 286 schematics
+[23Jan2021 10:13:26.365] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  11 repairs
+[23Jan2021 10:13:26.365] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   4 predicatus
+[23Jan2021 10:13:26.366] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   2 actions
+[23Jan2021 10:13:26.367] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  10 destabilization
+[23Jan2021 10:13:26.367] [Render thread/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  45 structures
+[23Jan2021 10:13:26.376] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1970 advancements
+[23Jan2021 10:13:26.889] [Render thread/WARN] [patchouli/]: Invalid extra recipe mapping: bloodmagic:livinghelmet to page 4 in entry bloodmagic:living_equipment/living_basics: Empty entry or page out of bounds
+[23Jan2021 10:13:26.890] [Render thread/WARN] [patchouli/]: Invalid extra recipe mapping: bloodmagic:livingplate to page 4 in entry bloodmagic:living_equipment/living_basics: Empty entry or page out of bounds
+[23Jan2021 10:13:26.890] [Render thread/WARN] [patchouli/]: Invalid extra recipe mapping: bloodmagic:livingleggings to page 4 in entry bloodmagic:living_equipment/living_basics: Empty entry or page out of bounds
+[23Jan2021 10:13:26.890] [Render thread/WARN] [patchouli/]: Invalid extra recipe mapping: bloodmagic:livingboots to page 4 in entry bloodmagic:living_equipment/living_basics: Empty entry or page out of bounds
+[23Jan2021 10:13:28.546] [Render thread/INFO] [structurize/]: Trying jar discover: assets/structurize
+[23Jan2021 10:13:28.547] [Render thread/INFO] [structurize/]: Trying jar discover: assets/minecolonies
+[23Jan2021 10:13:31.419] [Render thread/INFO] [structurize/]: Load additional huts or decorations from C:\Users\Sean\AppData\Local\.ftba\instances\c5f67197-d6da-4a17-8839-32908aed96bc\structurize/schematics
+[23Jan2021 10:13:31.420] [Render thread/INFO] [structurize/]: Load cached schematic from C:\Users\Sean\AppData\Local\.ftba\instances\c5f67197-d6da-4a17-8839-32908aed96bc\structurize/cache
+[23Jan2021 10:13:31.421] [Render thread/INFO] [structurize/]: Load cached schematic from C:\Users\Sean\AppData\Local\.ftba\instances\c5f67197-d6da-4a17-8839-32908aed96bc\structurize/cache
+[23Jan2021 10:13:35.494] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3053ms or 61 ticks behind
+[23Jan2021 10:13:35.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleMagpie has reached the goal [Graduate engineer]
+[23Jan2021 10:13:35.692] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] PurpleMagpie has reached the goal [Graduate engineer]
+[23Jan2021 10:13:35.695] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1970 advancements
+[23Jan2021 10:13:56.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PurpleMagpie has reached the goal [Engineer]
+[23Jan2021 10:13:56.308] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] PurpleMagpie has reached the goal [Engineer]
+[23Jan2021 10:13:56.330] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1970 advancements
+[23Jan2021 10:14:59.829] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Area: 5x5
+[23Jan2021 10:15:00.329] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Single Block
+[23Jan2021 10:17:07.942] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[23Jan2021 10:17:07.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:overworld
+[23Jan2021 10:17:08.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:the_nether
+[23Jan2021 10:17:08.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:the_end
+[23Jan2021 10:17:08.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/rats:ratlantis
+[23Jan2021 10:17:08.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/woot:tartarus
+[23Jan2021 10:17:08.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/appliedenergistics2:spatial_storage
+[23Jan2021 10:17:08.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/undergarden:undergarden
+[23Jan2021 10:17:08.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/javd:void
+[23Jan2021 10:17:08.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/jamd:mining
+[23Jan2021 10:26:02.292] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[23Jan2021 10:26:02.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:overworld
+[23Jan2021 10:26:02.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:the_nether
+[23Jan2021 10:26:02.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:the_end
+[23Jan2021 10:26:02.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/rats:ratlantis
+[23Jan2021 10:26:02.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/woot:tartarus
+[23Jan2021 10:26:02.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/appliedenergistics2:spatial_storage
+[23Jan2021 10:26:02.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/undergarden:undergarden
+[23Jan2021 10:26:02.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/javd:void
+[23Jan2021 10:26:02.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/jamd:mining
+[23Jan2021 10:34:44.923] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Area: 3x3
+[23Jan2021 10:34:45.473] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Area: 5x5
+[23Jan2021 10:34:48.472] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=-282, y=60, z=317} BlockPos{x=-284, y=61, z=312}
+[23Jan2021 10:35:54.292] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[23Jan2021 10:35:54.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:overworld
+[23Jan2021 10:35:54.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:the_nether
+[23Jan2021 10:35:54.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:the_end
+[23Jan2021 10:35:54.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/rats:ratlantis
+[23Jan2021 10:35:54.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/woot:tartarus
+[23Jan2021 10:35:54.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/appliedenergistics2:spatial_storage
+[23Jan2021 10:35:54.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/undergarden:undergarden
+[23Jan2021 10:35:54.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/javd:void
+[23Jan2021 10:35:54.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/jamd:mining
+[23Jan2021 10:38:16.915] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Single Block
+[23Jan2021 10:38:26.992] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[23Jan2021 10:38:27.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:overworld
+[23Jan2021 10:38:27.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:the_nether
+[23Jan2021 10:38:27.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/minecraft:the_end
+[23Jan2021 10:38:27.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/rats:ratlantis
+[23Jan2021 10:38:27.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/woot:tartarus
+[23Jan2021 10:38:27.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/appliedenergistics2:spatial_storage
+[23Jan2021 10:38:27.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/undergarden:undergarden
+[23Jan2021 10:38:27.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/javd:void
+[23Jan2021 10:38:27.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Direwolf20 Random Seed]'/jamd:mining
